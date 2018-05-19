@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1676797865552746}
+  m_IsPrefabParent: 1
+--- !u!1 &1676797865552746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4411174843949856}
+  - component: {fileID: 114268691164156386}
+  m_Layer: 0
+  m_Name: ProceduralWay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4411174843949856
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1676797865552746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114268691164156386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1676797865552746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e98cf6e39b8f4353a6d9ad1d864bd61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objObstacle: {fileID: 1243740256169630, guid: 9d18412f9637dfd47935440e914ceeab,
+    type: 2}
+  objRoad: {fileID: 1243740256169630, guid: 4951dcca73c72704ea5db3aca441094e, type: 2}
+  objRoadObstacle: {fileID: 1243740256169630, guid: adbcdaab6695b1647900c3e14652afeb,
+    type: 2}
+  objRoadSize: {fileID: 1225078053807732, guid: 501a51413ce6e48369f426dad000b904,
+    type: 2}
+  objExtraPointBonus: {fileID: 1568768250205524, guid: abf5d3bc6aa4b4a05a3d1d0c3f281462,
+    type: 2}
+  objExtraTimeBonus: {fileID: 1568768250205524, guid: 13ad98f586bc54f23a0df75dffd0f6ce,
+    type: 2}
+  objShieldBonus: {fileID: 1739166273159988, guid: 1549794e2dfaa439d8b889d4c69b4f65,
+    type: 2}
+  objJumpBonus: {fileID: 1444227733023414, guid: a15125a7c001f4af0a22e7ce792e459a,
+    type: 2}
+  objSideRoads:
+  - {fileID: 1431014766655294, guid: a44ec0b95c58e7c4b87eb10a6c095042, type: 2}
+  - {fileID: 1431014766655294, guid: ac516ca28338e304c89f17a9811a7fd6, type: 2}
+  - {fileID: 1431014766655294, guid: 0678e1ce131dcde4f99ad475e0b44c36, type: 2}
+  maxLevelObstacle: 6
+  matObstacle:
+  - {fileID: 2100000, guid: e94c75d7c2c82dc4181ec918dad3f0a5, type: 2}
+  - {fileID: 2100000, guid: 87bf8b67d0a902842a3b617c1c75d6e5, type: 2}
+  - {fileID: 2100000, guid: c39933e60e73205419d1f79a2af1fdac, type: 2}
+  maxBonusCount: 0

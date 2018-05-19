@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: c9c26eae1f1f4f34fb4e089c21b0059c
+timeCreated: 1516342130
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GatsbyFLF
+  fontNames:
+  - GatsbyFLF
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 39bfcfd80da2ec54fb06d98840ccecbb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

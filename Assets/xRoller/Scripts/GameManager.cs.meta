@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 456d02f84c4fc43648282f81e45576dd
+timeCreated: 1515080961
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerSpawn: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - startWay: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
